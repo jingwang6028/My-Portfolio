@@ -19,13 +19,13 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#">About Me</a>
+                        <a href="#about-me">About Me</a>
                     </li>
                     <li>
-                        <a href="#">Work</a>
+                        <a href="#work">Work</a>
                     </li>
                     <li>
-                        <a href="#">Contact Me</a>
+                        <a href="#contact-me">Contact Me</a>
                     </li>
                     <li>
                         <a href="#">Resume</a>
@@ -42,85 +42,101 @@
 
     <!-- main section -->
     <main>
-        <section>
-            <!-- about-me section -->
-            <article class="about-container">
-                <aside class="aside">
-                    <h3>
-                        <span>About</span>
-                        <span>Me</span>
-                    </h3>
-                </aside>
-                <div class='self-intro'>
-                    <p>
-                        I am currently enrolled in the Georgia Tech Coding Bootcamp in full stack web developement. By
-                        leaning
-                        HTML, CSS, JavaScript, Node.js, MySQL, MongoDB, React.js and so on, I am continuing building my
-                        skills in web development.
-                    </p>
-                </div>
-            </article>
+        <!-- about-me-section -->
+        <section id="about-me">
+            <aside>
+                <h3>
+                    <span>About</span>
+                    <span>Me</span>
+                </h3>
+            </aside>
+            <div>
+                <p>
+                    I am currently enrolled in the Georgia Tech Coding Bootcamp in full stack web developement. By
+                    leaning
+                    HTML, CSS, JavaScript, Node.js, MySQL, MongoDB, React.js and so on, I am continuing building my
+                    skills in web development.
+                </p>
+                <p>With a business degree, major in Accounting, I feel confidence to work in a team and work with
+                    customers.</p>
+            </div>
+        </section>
 
-            <!-- work section -->
-            <article class="work-container">
-                <aside>
-                    <h3>Work</h3>
-                </aside>
-                <div class="portfolio-container">
+        <!-- work-section -->
+        <section id="work">
+            <aside>
+                <h3>Work</h3>
+            </aside>
+            <div class="portfolio-container">
 
-                    <!-- first-large surf image -->
-                    <figure class="surf-report position-relative">
+                <!-- first-large surf image -->
+                <figure class="surf-report position-relative">
+                    <div class="position-absolute">
+                        <h4>
+                            <a href="#">Surf Report</a>
+                        </h4>
+                        <h5>MERN Stack</h5>
+                    </div>
+                </figure>
+
+                <!-- the other 4-small images -->
+                <div class='four-pics-container'>
+                    <figure class="led-wall position-relative">
                         <div class="position-absolute">
-                            <h4>Surf Report</h4>
-                            <h5>MERN Stack</h5>
+                            <h4>
+                                <a href="#">LED Wall</a>
+                            </h4>
+                            <h5>Node/ IoT</h5>
                         </div>
                     </figure>
+                    <figure class="caculator position-relative">
+                        <div class="position-absolute">
+                            <h4>
+                                <a href="#">Caculator</a>
+                            </h4>
+                            <h5>React/ JavaScript/ CSS</h5>
+                        </div>
+                    </figure>
+                    <figure class="pastel-puzzels position-relative">
+                        <div class="position-absolute">
+                            <h4>
+                                <a href="#">Pastel Puzzels</a>
+                            </h4>
+                            <h5>MERN Stack</h5>
+                        </div>
 
-                    <!-- the other 4-small images -->
-                    <div class='four-pics-container'>
-                        <figure class="led-wall position-relative">
-                            <div class="position-absolute">
-                                <h4>LED Wall</h4>
-                                <h5>Node/ IoT</h5>
-                            </div>
-                        </figure>
-                        <figure class="caculator position-relative">
-                            <div class="position-absolute">
-                                <h4>Caculator</h4>
-                                <h5>React/ JavaScript/ CSS</h5>
-                            </div>
-                        </figure>
-                        <figure class="pastel-puzzels position-relative">
-                            <div class="position-absolute">
-                                <h4>Pastel Puzzels</h4>
-                                <h5>MERN Stack</h5>
-                            </div>
+                    </figure>
+                    <figure class="run-buddy position-relative">
+                        <div class="position-absolute">
+                            <h4>
+                                <a href="#">Run Buddy</a>
+                            </h4>
+                            <h5>HTML/ CSS</h5>
+                        </div>
 
-                        </figure>
-                        <figure class="run-buddy position-relative">
-                            <div class="position-absolute">
-                                <h4>Run Buddy</h4>
-                                <h5>HTML/ CSS</h5>
-                            </div>
-
-                        </figure>
-                    </div>
-
+                    </figure>
                 </div>
-            </article>
 
-            <!-- contact-me section -->
-            <article class="contact-container">
-                <aside>
-                    <h3>
-                        <span>Contact</span>
-                        <span>Me</span>
-                    </h3>
-                </aside>
-                <div>
+            </div>
+        </section>
+
+        <!-- contact-me-section -->
+        <section id="contact-me" class="contact-container">
+            <aside>
+                <h3>
+                    <span>Contact</span>
+                    <span>Me</span>
+                </h3>
+            </aside>
+            <div class="contact-container">
+                <nav>
                     <ul>
-                        <li>347.000.000</li>
-                        <li>jingwang6028@gmail.com</li>
+                        <li>
+                            <a href="tel: 347-000-000">347-000-000</a>
+                        </li>
+                        <li>
+                            <a href="mailto: jingwang6028@gmail.com">jingwang6028@gmail.com</a>
+                        </li>
                         <li>
                             <a href="https://github.com/jingwang6028">GitHub</a>
                         </li>
@@ -131,10 +147,17 @@
                             <a href="#">Spotify</a>
                         </li>
                     </ul>
+                </nav>
 
-                </div>
-            </article>
+
+            </div>
         </section>
+
+
+
+
+
+
     </main>
 
 
