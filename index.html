@@ -13,7 +13,7 @@
 
 <body>
     <!-- header -->
-    <header>
+    <header class="sticky-position">
         <div class="header-container">
             <h1>Jing Wang</h1>
             <nav>
@@ -35,60 +35,108 @@
         </div>
     </header>
 
-    <!-- main-body -->
-    <main></main>
-
-    <!-- figure image -->
-    <figure>
+    <!-- figure header background image -->
+    <figure class="header-background">
         <h2>Full Stack Web Developer</h2>
     </figure>
 
-    <section>
-        <!-- about-me section -->
-        <article class="about-container">
-            <aside>
-                <h3>
-                    <span>About</span>
-                    <span>Me</span>
-                </h3>
-            </aside>
-            <div>
-                <p>
-                    I am currently enrolled in the Georgia Tech Coding Bootcamp in full stack web developement. By
-                    leaning
-                    the skills such as HTML, CSS, JavaScript, Node.js, MySQL, MongoDB, React.js,, I am seeking a web
-                    development job after finish this
-                    program.
-                </p>
-            </div>
-        </article>
+    <!-- main section -->
+    <main>
+        <section>
+            <!-- about-me section -->
+            <article class="about-container">
+                <aside class="aside">
+                    <h3>
+                        <span>About</span>
+                        <span>Me</span>
+                    </h3>
+                </aside>
+                <div class='self-intro'>
+                    <p>
+                        I am currently enrolled in the Georgia Tech Coding Bootcamp in full stack web developement. By
+                        leaning
+                        HTML, CSS, JavaScript, Node.js, MySQL, MongoDB, React.js and so on, I am continuing building my
+                        skills in web development.
+                    </p>
+                </div>
+            </article>
 
-        <!-- work section -->
-        <article class="work-container">
-            <aside>
-                <h3>Work</h3>
-            </aside>
-            <div class="portfolio-container">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+            <!-- work section -->
+            <article class="work-container">
+                <aside>
+                    <h3>Work</h3>
+                </aside>
+                <div class="portfolio-container">
 
-            </div>
-        </article>
+                    <!-- first-large surf image -->
+                    <figure class="surf-report position-relative">
+                        <div class="position-absolute">
+                            <h4>Surf Report</h4>
+                            <h5>MERN Stack</h5>
+                        </div>
+                    </figure>
 
-        <!-- contact-me section -->
-        <article class="contact-container">
-            <aside>
-                <h3>
-                    <span>Contact</span>
-                    <span>Me</span>
-                </h3>
-            </aside>
-            <div></div>
-        </article>
-    </section>
+                    <!-- the other 4-small images -->
+                    <div class='four-pics-container'>
+                        <figure class="led-wall position-relative">
+                            <div class="position-absolute">
+                                <h4>LED Wall</h4>
+                                <h5>Node/ IoT</h5>
+                            </div>
+                        </figure>
+                        <figure class="caculator position-relative">
+                            <div class="position-absolute">
+                                <h4>Caculator</h4>
+                                <h5>React/ JavaScript/ CSS</h5>
+                            </div>
+                        </figure>
+                        <figure class="pastel-puzzels position-relative">
+                            <div class="position-absolute">
+                                <h4>Pastel Puzzels</h4>
+                                <h5>MERN Stack</h5>
+                            </div>
+
+                        </figure>
+                        <figure class="run-buddy position-relative">
+                            <div class="position-absolute">
+                                <h4>Run Buddy</h4>
+                                <h5>HTML/ CSS</h5>
+                            </div>
+
+                        </figure>
+                    </div>
+
+                </div>
+            </article>
+
+            <!-- contact-me section -->
+            <article class="contact-container">
+                <aside>
+                    <h3>
+                        <span>Contact</span>
+                        <span>Me</span>
+                    </h3>
+                </aside>
+                <div>
+                    <ul>
+                        <li>347.000.000</li>
+                        <li>jingwang6028@gmail.com</li>
+                        <li>
+                            <a href="https://github.com/jingwang6028">GitHub</a>
+                        </li>
+                        <li>
+                            <a href="#">Twitter</a>
+                        </li>
+                        <li>
+                            <a href="#">Spotify</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </article>
+        </section>
+    </main>
+
 
     <!-- footer -->
     <footer></footer>
