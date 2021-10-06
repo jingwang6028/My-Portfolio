@@ -153,7 +153,7 @@ h5 {
 
 /* surf-report, led-wall, caculator, pastel-pazzels, run-buddy  background image */
 .surf-report {
-    background-image: url(../images/surf-m.jpg);
+    background-image: url(../images/reloc8.png);
     height: 250px;
 
 }
@@ -167,7 +167,7 @@ h5 {
 }
 
 .led-wall {
-    background-image: url(../images/led-wall.jpg);
+    background-image: url(../images/password.png);
     background-size: cover;
     height: 120px;
     width: 48%;
@@ -177,7 +177,7 @@ h5 {
 }
 
 .caculator {
-    background-image: url(../images/cacu.jpg);
+    background-image: url(../images/scheduler.png);
     background-size: cover;
     height: 120px;
     width: 48%;
@@ -187,7 +187,7 @@ h5 {
 } 
 
 .pastel-puzzels {
-    background-image: url(../images/pastel-puzzels.jpg);
+    background-image: url(../images/weather-dashboard.png);
     background-size: cover;
     height: 120px;
     width: 48%;

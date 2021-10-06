@@ -22,7 +22,5 @@ https://jingwang6028.github.io/My-Portfolio/
 
 Mock-up Image
 
-1. This iamge shows the web application's apprearance and functionality in a laotop screen size.
-   ![portfolio page in laptop size](./assets/images/regular-size-page.png)
-2. This image shows the web application's apprearance and functionality in a smart phone screen size.
-   ![portfolio page in phone size](./assets/images/phone-size-page.png)
+This iamge shows the web application's apprearance and functionality.
+![portfolio page in laptop size](./assets/images/portfilio.png)
