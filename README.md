@@ -23,4 +23,4 @@ https://jingwang6028.github.io/My-Portfolio/
 Mock-up Image
 
 This iamge shows the web application's apprearance and functionality.
-![portfolio page in laptop size](./assets/images/portfilio.png)
+![portfolio page in laptop size](./assets/images/portfolio.png)
